@@ -1,0 +1,29 @@
+{
+  "name": "bsvwalletbot",
+  "version": "1.0.0",
+  "description": "BitcoinSV Wallet for Telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ae-ku",
+  "license": "GNUv3",
+  "dependencies": {
+    "bitindex-sdk": "^3.0.14",
+    "bsv": "^0.27.2",
+    "bsv-message": "^1.0.3",
+    "ccxt": "^1.18.923",
+    "crypto": "^1.0.1",
+    "datapay": "0.0.15",
+    "fs": "0.0.1-security",
+    "handcash": "0.0.4",
+    "mongodb": "^3.2.7",
+    "qrcode": "^1.4.0",
+    "s": "^0.1.1",
+    "sequence": "^3.0.0",
+    "sequence-as-promise": "^1.2.0",
+    "telegraf": "^3.30.1",
+    "telegraf-command-parts": "^1.0.3"
+  }
+}
